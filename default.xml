@@ -32,7 +32,7 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="gingerbread" />
-  <project path="device/bn/encore" name="android_device_bn_encore" remote="CyanogenMod" revision="gingerbread" />
+  <project path="device/bn/encore" name="android_device_bn_encore" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/nvidia/harmony" name="android_device_harmony" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/motorola/sholes"  name="android_device_motorola_sholes" remote="cvpcs" revision="gingerbread" />
