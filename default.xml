@@ -11,8 +11,9 @@
            fetch="git://github.com/cvpcs/" />
   <remote  name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-  <remote  name="kruton"
-           fetch="git://github.com/kruton/" />
+  <remote  name="github"
+           fetch="git://github.com/"
+           review="review.cyanogenmod.com" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -21,15 +22,8 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="gingerbread" />
   <project path="device/bn/encore" name="android_device_bn_encore" remote="phoenixdevs" revision="gingerbread" />
@@ -39,9 +33,13 @@
   <project path="device/htc/mecha"  name="android_device_htc_mecha" remote="cvpcs" revision="gingerbread" />
   <project path="device/htc/inc"  name="android_device_htc_inc" remote="cvpcs" revision="gingerbread" />
   <project path="device/htc/supersonic"  name="android_device_htc_supersonic" remote="cvpcs" revision="gingerbread" />
+  <project path="device/common" name="device/common" />
+  <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
@@ -64,6 +62,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -77,7 +76,7 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
@@ -89,12 +88,14 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -120,17 +121,14 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
-  <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="froyo" />
-  <project path="external/lib-ext" name="android_external_libc-ext" remote="cvpcs" revision="gingerbread" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cvpcs" revision="froyo-gem" />
+  <project path="hardware/libhardware" name="cvpcs/android_hardware_libhardware" remote="gingerbread" />
+  <project path="hardware/libhardware_legacy" name="cvpcs/android_hardware_libhardware_legacy" remote="froyo" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
@@ -149,8 +147,9 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
+  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
@@ -170,8 +169,6 @@
   <project path="packages/apps/SuperUser" name="android_packages_apps_Superuser" remote="CyanogenMod" revision="master" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -189,11 +186,18 @@
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="platform/system/extras" /
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
+
 
 </manifest>
