@@ -11,6 +11,8 @@
            fetch="git://github.com/cvpcs/" />
   <remote  name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
+  <remote  name="themes"
+           fetch="git://github.com/tmobile" />
   <remote  name="github"
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
