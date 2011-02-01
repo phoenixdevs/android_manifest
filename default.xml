@@ -127,8 +127,8 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="cvpcs/android_hardware_libhardware" remote="gingerbread" />
-  <project path="hardware/libhardware_legacy" name="cvpcs/android_hardware_libhardware_legacy" remote="froyo" />
+  <project path="hardware/libhardware" name="cvpcs/android_hardware_libhardware" remote="cvpcs"  revision="gingerbread" />
+  <project path="hardware/libhardware_legacy" name="cvpcs/android_hardware_libhardware_legacy" remote="cvpcs"  revision=froyo" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
