@@ -183,5 +183,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
+    <project path="vendor/phoenix" name="android_vendor_phoenix" remote="phoenixdevs" revision="gingerbread" />
+
 
 </manifest>
