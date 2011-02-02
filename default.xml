@@ -12,7 +12,7 @@
   <remote  name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
 
-  <project path="build" remote="cvpcs" name="android_build" revision="gingerbread-gem">
+  <project path="build" remote="phoenixdevs" name="platform_build" revision="gingerbread">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
