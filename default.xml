@@ -11,8 +11,6 @@
            fetch="git://github.com/cvpcs/" />
   <remote  name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-  <remote  name="nadlabak"
-           fetch="git://github.com/nadlabak/" />
 
   <project path="build" remote="phoenixdevs" name="platform_build" revision="gingerbread">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -30,7 +28,7 @@
   <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/fascinate" name="android_device_samsung_fascinate" remote="phoenixdevs" revision="froyo" />
   <project path="device/samsung/comon" name="android_device_samsung_comon" remote="phoenixdevs" revision="master" />
-  <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="nadlabak" revision="gingerbread" />
+  <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/htc/vision" name="android_device_htc_vision" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="CyanogenMod" revision="gingerbread" />
