@@ -27,7 +27,7 @@
   <project path="device/nvidia/harmony" name="android_device_harmony" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/fascinate" name="android_device_samsung_fascinate" remote="phoenixdevs" revision="froyo" />
-  <project path="device/samsung/comon" name="android_device_samsung_common" remote="phoenixdevs" revision="master" />
+  <project path="device/samsung/common" name="android_device_samsung_common" remote="phoenixdevs" revision="master" />
   <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/htc/vision" name="android_device_htc_vision" remote="CyanogenMod" revision="gingerbread" />
