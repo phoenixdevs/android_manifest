@@ -29,6 +29,7 @@
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="gingerbread" />
   <project path="device/bn/encore" name="android_device_bn_encore" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/nvidia/harmony" name="android_device_harmony" remote="phoenixdevs" revision="gingerbread" />
+  <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/fascinate" name="android_device_samsung_fascinate" remote="phoenixdevs" revision="froyo" />
   <project path="device/samsung/common" name="android_device_samsung_common" remote="phoenixdevs" revision="master" />
   <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="koush" revision="gingerbread" />
