@@ -25,6 +25,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/bn/encore" name="android_device_bn_encore" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/nvidia/harmony" name="android_device_harmony" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
