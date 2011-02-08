@@ -32,7 +32,7 @@
   <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/fascinate" name="android_device_samsung_fascinate" remote="phoenixdevs" revision="froyo" />
   <project path="device/samsung/common" name="android_device_samsung_common" remote="phoenixdevs" revision="master" />
-  <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="koush" revision="froyo" />
+  <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="CyanogenMod" revision="gingerbread" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="atinm" revision="gingerbread" />
   <project path="device/htc/common" name="android_device_htc_common" remote="cvpcs" revision="gingerbread-gem" />
   <project path="device/common" name="device/common" />
