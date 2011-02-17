@@ -26,7 +26,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/bn/encore" name="android_device_bn_encore" remote="phoenixdevs" revision="gingerbread" />
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="phoenixdevs" revision="gingerbread" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="phoenixdevs" revision="master" />
   <project path="device/nvidia/harmony" name="android_device_harmony" remote="phoenixdevs" revision="gingerbread" />
   <project path="device/samsung/galaxytab" name="android_device_samsung_galaxytab" remote="phoenixdevs" revision="gingerbread" />
@@ -81,7 +81,7 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libgsm" name="external-libgsm" remote="phoenixdevs" revision="rowboat-gingerbread" />
+  <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
@@ -121,12 +121,14 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="gingerbread" />
+  <project path="external/hijack" name="platform/external/zlib" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cvpcs" revision="gingerbread" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="phoenixdevs" revision="gingerbread" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
