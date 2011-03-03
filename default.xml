@@ -5,6 +5,8 @@
            review="review.source.android.com" />
   <default revision="master"
            remote="korg" />
+  <remote  name="github"
+           fetch="git://github.com/" />
   <remote  name="phoenixdevs"
            fetch="git://github.com/phoenixdevs/" />
   <remote  name="cvpcs"
